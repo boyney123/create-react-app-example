@@ -1,0 +1,61 @@
+# Welcome to Gitpages!
+
+# This playground is designed to allow you to create landing pages.
+
+# How to get started
+
+# 1. Press CTRL + D (to get the block snippets) in the code editor.
+# 2. Choose which blocks you want and edit them (view them as you go!)
+# 3. Once happy, export to GitHub or just static HTML 🔥
+
+# TIP: Use the slider to see Desktop, Tablet or Mobile views 👍
+
+version: 1
+
+theme:
+  primary: green
+
+blocks:
+  - type: 'navigation'
+    style: 'solid'
+    props:
+      title: 'gitpages.app/example'
+      showViewOnGitHubButton: true
+
+  - type: 'hero'
+    style: 'slant'
+    props:
+      dark: true
+      title: 'Say hello to the new way to build landing pages!'
+      coverImage: "https://images.unsplash.com/photo-1621927238630-a85e0f7e519c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1952&q=80"
+      subtitle: 'We can use this tool to build some great landing pages :)'
+      callToAction:
+        label: 'Get Started'
+        href: "https://google.com"
+
+  - type: 'content'
+    style: 'centered'
+    props:
+      title: 'Our lastest updates'
+      subtitle: 'A view into our latest updates for this project'
+      imgUrl: 'https://images.unsplash.com/photo-1523800503107-5bc3ba2a6f81?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1400&q=80'
+      content: >
+        ## Get started today
+
+        Get started with our application in seconds! why not check it out
+
+
+  - type: "faq"
+    style: "offset"
+    props:
+      title: "Frequently asked questions"
+      subtitle: "Can’t find the answer you’re looking for? Reach out on GitHub!"
+      questions:
+        - question: "Example Question 1"
+          answer: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque"
+        - question: "Example Question 2"
+          answer: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque"
+        - question: "Example Question 3"
+          answer: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque"
+        - question: "Example Question 4"
+          answer: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque"

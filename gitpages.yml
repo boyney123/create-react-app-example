@@ -1,0 +1,131 @@
+# Welcome to Gitpages!
+
+# This playground is designed to allow you to create landing pages.
+
+# How to get started
+
+# 1. Press CTRL + Space (to get the block snippets) in the code editor.
+# 2. Choose which blocks you want and edit them (view them as you go!)
+# 3. Once happy, export to GitHub or just static HTML 🔥
+
+# TIP: Use the slider to see Desktop, Tablet or Mobile views 👍
+
+version: 1
+
+theme:
+  primary: pink
+
+blocks:
+  - type: 'navigation'
+    style: 'solid'
+    props:
+      title: 'gitpages.app/example'
+      showViewOnGitHubButton: true
+
+  - type: 'hero'
+    style: 'slant'
+    props:
+      dark: true
+      title: 'Making changes'
+      coverImage: "https://images.unsplash.com/photo-1621927238630-a85e0f7e519c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1952&q=80"
+      subtitle: 'Some other changes here'
+      callToAction:
+        label: 'Get Started'
+        href: "https://gitpages.app"
+
+
+
+  - type: "features"
+    style: "stacked"
+    props:
+      tinyTitle: "Awesome Features!"
+      title: "List your awesome features."
+      subtitle: "Icons are from React HeroIcons https://github.com/tailwindlabs/heroicons"
+      features:
+        - title: "Feature 1"
+          description: "Update this feature"
+          icon: "GlobeAltIcon"
+        - title: "Feature 2"
+          description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque"
+          icon: "LightningBoltIcon"
+
+  - type: "maintainers"
+    style: "tiled"
+    props:
+      title: "Meet the people behind your Project!"
+      description: "We are a small group of people from all over the world. We are always looking for maintainers so please feel free to contact us!"
+      maintainers:
+        - name: "Kate Smith"
+          role: "Developer | Company A"
+          imageUrl: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
+          twitterUrl: "https://twitter.com/boyney123"
+          githubUrl: "https://github.com/boyney123"
+        - name: "Joe Smith"
+          role: "Developer | Company B"
+          imageUrl: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-1.2.1&ixqx=uWmimzh1gw&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
+          twitterUrl: "https://twitter.com/boyney123"
+          githubUrl: "https://github.com/boyney123"
+        - name: "Bob Smith"
+          role: "Developer Advocate | Company B"
+          imageUrl: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-1.2.1&ixqx=uWmimzh1gw&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
+          twitterUrl: "https://twitter.com/boyney123"
+          githubUrl: "https://github.com/boyney123"
+        - name: "Joe Smith"
+          role: "Developer | Company B"
+          imageUrl: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-1.2.1&ixqx=uWmimzh1gw&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
+          twitterUrl: "https://twitter.com/boyney123"
+          githubUrl: "https://github.com/boyney123"
+        - name: "Bob Vincent"
+          role: "Developer | Company C"
+          imageUrl: "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?ixlib=rb-1.2.1&ixqx=uWmimzh1gw&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
+          twitterUrl: "https://twitter.com/boyney123"
+          githubUrl: "https://github.com/boyney123"
+
+
+
+  - type: 'content'
+    style: 'stacked'
+    props:
+      title: 'Why choose us?'
+      subtitle: 'Here is an example of some content'
+      content: >
+        ### We love to help developers build things in seconds.
+
+        Use gitpages to build your landing pages within seconds and share your content online.
+
+        > Hello world! this will hopefully save you time!
+
+
+        #### Markdown header
+
+        Something interesting about your project......
+
+
+
+  - type: "stats"
+    style: "stacked"
+    props:
+      title: "Project Numbers"
+      subtitle: "We are fully open source "
+      stats:
+        - value: "50%"
+          label: "Open Source"
+        - value: "100k"
+          label: "Stars"
+        - value: "26"
+          label: "Contributors"
+
+
+  - type: "footer"
+    style: "links"
+    props:
+      copyright: "My package"
+      links:
+        - label: "About"
+          href: "https://gitpages.app"
+        - label: "Here"
+          href: "https://gitpages.app"
+        - label: "Blog"
+          href: "https://boyney.io"
+        - label: "Youtube"
+          href: "https://youtube.com"        
